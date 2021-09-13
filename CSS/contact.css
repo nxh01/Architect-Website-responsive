@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+body {
+  background-color: #232323;
+  overflow-x: hidden;
+}
+nav {
+  background-color: #232323;
+  height: 70px;
+}
+nav ul li img {
+  position: relative;
+  left: -40px;
+  top: 10px;
+}
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  position: relative;
+}
+nav ul li a span {
+  color: #ffbf00;
+}
+ul li.activebar a {
+  color: #ffbf00;
+}
+.hover-line::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #ce9c07;
+  transition: width 0.3s;
+}
+.hover-line:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+#navcategories li a:hover {
+  color: #ce9c07;
+}
+.navbarcolors a {
+  color: #9b833b;
+}
+#navbarcolors a {
+  color: #9b833b;
+}
+#navcategories a {
+  text-decoration-line: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 00.3s all;
+}
+#navcategories {
+  float: right;
+  padding-left: 30px;
+  top: -40px;
+  position: relative;
+}
+#navcategories {
+  animation: transition 0.9s;
+}
+@keyframes transition {
+  from {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+#Email {
+  animation: transitionH1 0.8s;
+}
+#FirstName {
+  animation: transitionH1 0.8s;
+}
+#Lastname {
+  animation: transitionH1 0.8s;
+}
+#Subject {
+  animation: transitionH1 0.8s;
+}
+#Message {
+  animation: transitionH1 0.8s;
+}
+#Submitbtn {
+  animation: transitionH1 0.8s;
+}
+.ContactMe {
+  animation: transitionbtn 0.8s;
+}
+@keyframes transitionbtn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(90deg);
+  }
+}
+@keyframes transitionH1 {
+  from {
+    opacity: 0;
+    transform: rotateY(60deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+/* NAVBAR */
+/* END */
+.endWeblist {
+  animation: transitionEnd 0.8s;
+}
+.endWebimages {
+  animation: transitionbtn 0.8s;
+}
+.h3endfloat {
+  animation: transitionbtn 0.8s;
+}
+@keyframes transitionEnd {
+  from {
+    opacity: 0;
+    transform: rotateY(120deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+@keyframes transitionbtn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(90deg);
+  }
+}
+.endWeb {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.endWeb h1 {
+  display: flex;
+  justify-content: left;
+}
+.lineseperator {
+  border-top: solid 1px rgba(0, 0, 0, 0.308);
+  margin-bottom: 30px;
+}
+.endWeb h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.endWeb span a {
+  color: #ffbf00;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.endWeblist ul li a {
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-decoration-line: none;
+  list-style: none;
+  list-style-type: none;
+  transition: 0.4s;
+}
+.endWeblist li a:hover {
+  color: #ce9c07;
+  transition: 0.4s;
+}
+.endWeblist a {
+  list-style: none;
+  list-style-type: none;
+}
+.endWeblist li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px 0 0;
+}
+.endWebimages ul {
+  list-style: none;
+  display: inline-block;
+  padding-left: 15px;
+}
+.endWebimages {
+  position: relative;
+  bottom: 10px;
+  display: flex;
+  justify-content: right;
+}
+.endWebimages img {
+  width: 41px;
+  height: 41px;
+}
+.endWebimages ul a img {
+  display: inline-block;
+}
+#spanMe-clicker a {
+  transition: 0.4s;
+}
+#spanMe-clicker a:hover {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.1);
+}
+/* END */
+/* CONTACT */
+#ColorBackground {
+  background-color: #232323;
+}
+#ContactIntro {
+  width: 660px;
+  height: 55vh;
+}
+::placeholder {
+  color: #696969;
+}
+#Email {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 415px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-left: 10px;
+  color: white;
+}
+#FirstName {
+  width: 240px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-left: 10px;
+  color: white;
+}
+#Subject {
+  width: 340px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-left: 10px;
+  color: white;
+}
+#Lastname {
+  width: 315px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-left: 10px;
+  color: white;
+}
+#Message {
+  width: 660px;
+  height: 157px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 10%);
+  padding-left: 10px;
+  color: white;
+  max-width: 100%;
+  max-height: 70%;
+}
+#Submitbtn {
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #ddae20;
+  border: none;
+  border-radius: 1px;
+  transition: 0.9s;
+}
+#Submitbtn:hover {
+  background-color: #521423;
+  transition: 0.6s;
+}
+input:focus {
+  border: 1px solid black;
+}
+.ContactMe {
+  color: #f4a109;
+  font-weight: 700;
+  font-size: 22px;
+}
+.ContactMe {
+  text-align: left;
+  font-weight: 700;
+  font-size: 22px;
+  width: max-content;
+  transition: 0.9s ease-out;
+}
+.ContactMe {
+  overflow: hidden;
+  background: linear-gradient(to right, #f4a109 50%, #6d5d2c 20%, #521423);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.9s ease-out;
+}
+.ContactMe:hover {
+  background-position: -100%;
+}
